@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  height: 50px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+}
+.pop-icon {
+  height: 40px;
+  width: 40px;
+  margin-top: 17px;
+  color: black;
+}
+.nav-btn {
+  border: none;
+  background-color: #ffffff;
+}
+.head {
+  color: black;
+}
+.close{
+  color: black;
+}

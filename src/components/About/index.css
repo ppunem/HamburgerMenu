@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+  .image-small {
+    height: 250px;
+  }
+  .image-large {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .image-small {
+    display: none;
+  }
+  .image-large {
+    height: 500px;
+  }
+}
