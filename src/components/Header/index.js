@@ -38,7 +38,7 @@ https://assets.ccbp.in/frontend/react-js/hamburger-menu-website-logo.png"
           <button
             type="button"
             className="trigger-button"
-            onClick={() => close()}
+            onClick={() => close()}  data-testid="closeButton"
           >
             <IoMdClose className="close" />
           </button>
