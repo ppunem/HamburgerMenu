@@ -11,12 +11,12 @@ import './index.css'
 
 const Header = () => (
   <nav className="nav-container">
-    <img
+    <Link to="/"><img
       src="
 https://assets.ccbp.in/frontend/react-js/hamburger-menu-website-logo.png"
       alt="website logo"
       className="logo"
-    />
+    /></Link>
     <Popup
       modal
       trigger={
